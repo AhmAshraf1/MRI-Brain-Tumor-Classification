@@ -241,7 +241,7 @@ Monitor: val_loss
 
 ## 📊 Visualizations
 
-### 1. Training History
+### Training History
 
 #### Training & Validation Accuracy Over Epochs
 
@@ -345,8 +345,7 @@ This model is for research/educational purposes only.
 
 ## 👥 Contributing
 
-Contributions are welcome! Please follow these guidelines:
----
+Contributions are welcome! Please follow guidelines
 
 ## ⚖️ Ethical Considerations
 
