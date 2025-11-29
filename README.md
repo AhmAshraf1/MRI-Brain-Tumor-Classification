@@ -17,8 +17,6 @@
 - [Future Improvements](#-future-improvements)
 - [References](#-references)
 
----
-
 ## 🎯 Project Overview
 
 This project implements a deep learning solution for **brain tumor classification** using Convolutional Neural Networks (CNN) and transfer learning with **NASNetMobile**. The model classifies brain MRI images into multiple categories to assist in medical diagnosis and treatment planning.
@@ -35,8 +33,6 @@ This project implements a deep learning solution for **brain tumor classificatio
 2. Leverage pre-trained NASNetMobile for efficient feature extraction
 3. Achieve high accuracy and reliability for clinical assistance
 4. Provide interpretable results through visualization
-
----
 
 ## 📊 Dataset Information
 
@@ -93,7 +89,6 @@ Testing Set:
   • No Tumor:      91 images
   • Pituitary:     85 images
   • Total:        310 images
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ### Data Characteristics
@@ -102,7 +97,6 @@ Testing Set:
 - **Color Mode:** RGB (3 channels)
 - **Data Split:** ~80% Training, ~10% Validation  ~10% Testing
 
----
 
 ## 🏗️ Model Architecture
 
@@ -166,7 +160,7 @@ Class Weights:
 
 ### Training Configuration
 
-```yaml
+```python
 Optimizer: Adam
   - Learning Rate: 0.001
 
@@ -252,6 +246,7 @@ Monitor: val_loss
 #### Training & Validation Accuracy Over Epochs
 
 ![Accuracy Curves](<images/model acc.png>)
+
 #### Training & Validation Loss Over Epochs
 
 ![Loss Curves](<images/model loss.png>)
